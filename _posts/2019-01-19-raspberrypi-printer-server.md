@@ -35,7 +35,7 @@ categories: blog
 
 通过 ssh 使用 pi 用户连接上 Raspberry Pi之后，输入以下命令进行安装：
 
-```
+``` shell
 sudo apt-get update
 sudo apt-get upgrade
 
