@@ -32,6 +32,9 @@ github_username:  yuxiaous
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
 
 # Exclude from processing.
 # The following items will not be processed, by default.
