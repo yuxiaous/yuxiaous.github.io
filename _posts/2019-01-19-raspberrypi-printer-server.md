@@ -26,12 +26,12 @@ categories: blog
 ### 安装和配置打印服务
 
 这里我们用的是苹果家的开源打印服务 CUPS(Common UNIX Printing System) 。它有几个优点：
+
 1. 采用 IPP 以加强网络打印功能；
 2. 可自动检测网络打印机；
 3. Web接口设置工具；
 4. 支持PPD(PostScript Printer Description)打印机文件；
 5. 支持大多数打印机使用。
-
 
 通过 ssh 使用 pi 用户连接上 Raspberry Pi之后，输入以下命令进行安装：
 
@@ -59,6 +59,7 @@ sudo /etc/init.d/cups restart
 关于如何配置我这里就不重复写了，网上的教程非常多，而我这肯定也不是最详细的。
 
 为大家推荐几个，随便选一个看看就行：
+
 - [How to Add a Printer to Your Raspberry Pi (or Other Linux Computer)](https://www.howtogeek.com/169679/how-to-add-a-printer-to-your-raspberry-pi-or-other-linux-computer/)
 - [Raspbian: How to add a printer on your Raspberry Pi? (CUPS)](https://raspberrytips.com/install-printer-raspberry-pi/)
 
