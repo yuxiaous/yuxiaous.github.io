@@ -38,7 +38,7 @@ USG的CPU性能非常羸弱，干不了体力活，所以网络里的所有脏�
 
 4、AP
 
-AP（Access Point）用来将有线信号转化为无线信号，用来接入手机、笔记本之类的无线设备。我家的AP使用的是UniFi AP-AC-Pro和UniFi AP-AC-In Wall。
+AP（Access Point）用来将有线信号转化为无线信号，用来接入手机、笔记本之类的无线设备。我家的AP使用的是UniFi AP-AC-Pro和UniFi AP-AC-In Wall。这两个AP设备都支持PoE供电，直接插在交换机的PoE网口上就可以得到供电，这点也是买PoE设备的好处。尤其是挂在天花板上的AP，非PoE不可啊。
 
 - UniFi AP-AC-Pro是UAP-AC系列的专业版，支持3x3MIMO技术，支持双射频5GHz和2.4GHz同时工作。
 - UniFi AP-AC-In Wall是一款入墙式的AP，支持2x2MIMO技术，同样支持双射频5GHz和2.4GHz同时工作。它可以替代原先墙上的网口面板，不过会凸出来一块。
